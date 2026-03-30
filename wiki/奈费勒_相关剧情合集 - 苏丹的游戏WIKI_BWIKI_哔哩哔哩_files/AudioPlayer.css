@@ -1,0 +1,66 @@
+.audio-controls {
+display: inline-block;
+width: 300px;
+max-width: 100%;
+height: 30px;
+padding: 0;
+position: relative;
+text-align: center;
+background-color: #fc9dba;
+border-radius: 15px;
+box-sizing: border-box;
+user-select: none;
+}
+.play-pause .icon-btn {
+position:absolute;
+width: 30px;left:5px;
+height: 100%;
+cursor: pointer;
+}
+.play-pause .icon-play {
+background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAadJREFUaAXtmDtOA0EQRA1ChJD7BHwSMgLEHQwSR0DidwfgEuBTAHdABGREwAk4ACEJ1AuagMS7Mz0foW6ptGt7NFtVPV2yPZlEhQPhQDgQDoQD4UA48C8d2Jaq1dbKlh0IHGmPF2HPYa/kLTyE8PBN4VG4EdaE6uUlBOJLwqnwJsyEquUpxIhPdXMv3AncV6kSQoz4gW5ehROBbhWtkkIgvi7cCswPc1SsSgsx4iQayXYpNI9qI/X3eqU3vkeA4+Ye1bU6Iu6/ZVHNkXOL6hZCUMTwEwJENaGQXa2EGHHimZjOjurWQkwQXaE7yVHdixAEMS/JUd2TEMRQJNqzsMGLodWjkCeR3xXeh4pgXU9CPsXnTNgXmJdRtTJqdbnFD9r6XPhIfUTrjkD8UCC1kkUgvpUQvtLMhS2Br/zZ1eJocf6PBYbarWp25Eusr4UdwVUEbtTqCMTpwug0guSQKt2RrEgdIsDWlOwIQ3whZKWREV10LSEE4ghwSaNFAuxzz6NlkcoPp6oiEOPVkSKRam7Xunbx328tsfGccCAcCAfCgXAgHKjhwA9tzj1lnNiKBwAAAABJRU5ErkJggg==);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+.play-pause .icon-pause {
+background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAIZJREFUaAXt0jEOgCAAA0D0/3/WmUlTbYLm3Bja4JUxfAQIECBAgACB5QS24EbHjcxV7xsd0zX26fThgx9ZbTyLWKQk4GmVYONai8R0paBFSrBxrUViulLQIiXYuNYiMV0paJESbFxrkZiuFLRICTautUhMVwr+ZpGSj1oCBAgQIECAwBOBE/9PAjirC0TaAAAAAElFTkSuQmCC);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+.play-time {
+margin-right: 15px;
+float: right;
+width: calc(100% - 60px);
+height: 100%;
+cursor: pointer;
+}
+.play-time .progressBarBg {
+top: 13px;
+background-color: #d9d9d9;
+position: relative;
+height: 2px;
+pointer-events: none;
+}
+.play-time .progressBar {
+background-color: #649fec;
+width: 0;
+height: 2px;
+pointer-events: none;
+}
+.play-time .progressBarBg span {
+content: " ";
+width: 10px;
+height: 10px;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+background-color: #3e87e8;
+position: absolute;
+left: 0;
+top: 50%;
+margin-top: -5px;
+margin-left: -5px;
+pointer-events: none;
+}
