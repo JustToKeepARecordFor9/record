@@ -393,7 +393,7 @@
         "id": 2000019,
         "name": "热娜",
         "title": "珠宝商",
-        "text": "珠宝商，在权力的游戏，浴场里的消息和书店营业中出场可以累计【灵感】。在俺寻思中出场可以消耗【灵感】为你设计饰品。",
+        "text": "曾经与你合作过的珠宝商，现在，你的游戏成为了她灵感的源泉。在权力的游戏，浴场里的消息和书店营业中出场可以累计【灵感】。在俺寻思中出场可以消耗【灵感】为你设计饰品。",
         "pops": [],
         "card_favour": "",
         "type": "char",
@@ -1234,7 +1234,7 @@
         "id": 2000058,
         "name": "沉默的武士",
         "title": "未启用",
-        "text": "【此npc已删除或人设待修改】有游牧民血统的低等贵族，在可汗线会成为你的盟友。如果派遣他去游牧民绿洲，会有额外的收获。他和【游牧民可汗】是兄弟关系。",
+        "text": "【此npc已删除】有游牧民血统的低等贵族，在可汗线会成为你的盟友。如果派遣他去游牧民绿洲，会有额外的收获。他和【游牧民可汗】是兄弟关系。",
         "pops": [],
         "card_favour": "",
         "type": "char",
@@ -1273,11 +1273,11 @@
         "rare": 3,
         "resource": "cards/2000059",
         "tag": {
-            "智慧": 5,
+            "智慧": 3,
             "魅力": 2,
+            "魔力": 3,
             "女性": 1,
             "贵族": 1,
-            "魔力": 1,
             "爱书人": 1,
             "反对": 1,
             "纯色材质": 1
@@ -2000,7 +2000,7 @@
         "id": 2000114,
         "name": "古利斯",
         "title": "游牧民首领",
-        "text": "这位游牧民决定留下了报答你的恩情，他不善言辞，但他的弓箭具有一种超自然的精准。",
+        "text": "这位游牧民决定留下来报答你的恩情，他不善言辞，但他的弓箭具有一种超自然的精准。",
         "pops": [],
         "card_favour": "游牧民首领？",
         "type": "char",
@@ -3087,7 +3087,7 @@
         "type": "item",
         "tips": "",
         "rare": 3,
-        "resource": "cards/2000100",
+        "resource": "cards/2000171",
         "tag": {
             "思潮": 1,
             "已拥有": 1,
@@ -3558,7 +3558,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"c438448d-436f-49d3-9c04-f1b797e4fe99",
+              
+                "condition": { 
+                    "is_rite":5000009
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001066":1, //送书+1
+                }
+            }
+        ]
     },
     "2000194": {
         "id": 2000194,
@@ -3835,7 +3852,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"f938eeaa-2589-4f3a-9b4f-c406b472061b",
+              
+                "condition": { 
+                    "is_rite":5000012
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001040":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000204": {
         "id": 2000204,
@@ -3858,7 +3892,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"14b46de8-2698-4ec6-9350-1086a0437294",
+              
+                "condition": { 
+                    "is_rite":5000013
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001041":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000205": {
         "id": 2000205,
@@ -3880,7 +3931,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"458d05af-be55-496c-ac58-4e39b6ac8be8",
+              
+                "condition": { 
+                    "is_rite":5000014
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001042":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000206": {
         "id": 2000206,
@@ -3902,7 +3970,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"d72518dc-efb1-4c2d-acf3-cdb130b43cd0",
+              
+                "condition": { 
+                    "is_rite":5000015
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001043":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000207": {
         "id": 2000207,
@@ -3925,7 +4010,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"d3a500ec-69f1-4b6c-a602-13a7d1282351",
+              
+                "condition": { 
+                    "is_rite":5000016
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001044":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000208": {
         "id": 2000208,
@@ -3947,7 +4049,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"a584a04b-27b5-4000-9354-6314b384ad51",
+              
+                "condition": { 
+                    "is_rite":5000017
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001045":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000209": {
         "id": 2000209,
@@ -3969,7 +4088,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"98ba43ac-42b4-4436-a8e4-5236bf13eec2",
+              
+                "condition": { 
+                    "is_rite":5000018
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001028":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000210": {
         "id": 2000210,
@@ -3991,7 +4127,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+          "post_rite":[
+            {
+              
+                "guid":"d6ef970c-ff64-4f5e-b5b6-90342b7c6bff",
+              
+                "condition": { 
+                    "is_rite":5000019
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001025":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000211": {
         "id": 2000211,
@@ -4013,7 +4166,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"484f233b-1696-4f20-9234-c51df37f09da",
+              
+                "condition": { 
+                    "is_rite":5000020
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001029":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000212": {
         "id": 2000212,
@@ -4035,7 +4205,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"3e232f4f-be7f-4d1e-ac60-704279640a62",
+              
+                "condition": { 
+                    "is_rite":5000021
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001053":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000213": {
         "id": 2000213,
@@ -4057,7 +4244,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"40cde11f-547f-419a-b42c-0f57921562d4",
+              
+                "condition": { 
+                    "is_rite":5000022
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001030":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000214": {
         "id": 2000214,
@@ -4079,7 +4283,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"5dfa85a2-ec37-4fa5-8261-4aa8048de5ab",
+              
+                "condition": { 
+                    "is_rite":5000023
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001008":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000215": {
         "id": 2000215,
@@ -4102,7 +4323,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"f2434f87-67e3-41bc-8672-fc60b4cf50ac",
+              
+                "condition": { 
+                    "is_rite":5000024 
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000974":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000216": {
         "id": 2000216,
@@ -4124,7 +4362,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"3e0a658b-e771-471c-95cd-2755f8b30269",
+              
+                "condition": { 
+                    "is_rite":5000025
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000983":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000217": {
         "id": 2000217,
@@ -4146,7 +4401,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"0c41b812-3b32-48ca-a9a4-3e1c70ab6397",
+              
+                "condition": { 
+                    "is_rite":5000026
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001046":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000218": {
         "id": 2000218,
@@ -4168,7 +4440,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"a08a7809-24ae-466d-b91d-4520081410e1",
+              
+                "condition": { 
+                    "is_rite":5000027
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000984":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000219": {
         "id": 2000219,
@@ -4190,7 +4479,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"d659ebd4-8437-4746-9a50-3b5a54225e46",
+              
+                "condition": { 
+                    "is_rite":5000028
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001009":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000220": {
         "id": 2000220,
@@ -4212,7 +4518,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"7955b9fd-e658-40f9-92e1-a341f7c5105a",
+              
+                "condition": { 
+                    "is_rite":5000029
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000985":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000221": {
         "id": 2000221,
@@ -4234,7 +4557,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"19e540b6-0708-4d66-8db7-5bcd6b2c7929",
+              
+                "condition": { 
+                    "is_rite":5000030 
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000975":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000222": {
         "id": 2000222,
@@ -4256,7 +4596,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"c3f4dd25-081b-454c-ad33-07783bca5e0a",
+              
+                "condition": { 
+                    "is_rite":5000031 
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000976":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000223": {
         "id": 2000223,
@@ -4278,7 +4635,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"11d61c64-38e9-49d7-9d0e-27964a344e05",
+              
+                "condition": { 
+                    "is_rite":5000032
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000977":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000224": {
         "id": 2000224,
@@ -4300,7 +4674,25 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"31d543eb-005a-4022-8f9d-49025a4111ca",
+              
+                "condition": { 
+                    "is_rite":5000033
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000978":1, //阅读+1
+                }
+            }
+        ]
+        
     },
     "2000225": {
         "id": 2000225,
@@ -4322,7 +4714,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"249cc0e1-3e39-4871-9844-00e3f779cd7c",
+              
+                "condition": { 
+                    "is_rite":5000034
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000999":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000226": {
         "id": 2000226,
@@ -4344,7 +4753,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"dc1875e7-7ee2-4ad9-83a8-eccd96285a74",
+              
+                "condition": { 
+                    "is_rite":5000035
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000979":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000227": {
         "id": 2000227,
@@ -4366,7 +4792,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"56c039e4-6695-4030-94ea-d7858fa0a55f",
+              
+                "condition": { 
+                    "is_rite":5000036
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001047":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000228": {
         "id": 2000228,
@@ -4388,7 +4831,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"e66ff7a0-7c22-44d6-b0a7-0201213793ef",
+              
+                "condition": { 
+                    "is_rite":5000037
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001048":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000229": {
         "id": 2000229,
@@ -4410,7 +4870,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"106ea27e-4ba7-4c5c-9e17-535e5463a074",
+              
+                "condition": { 
+                    "is_rite":5000038
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001049":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000230": {
         "id": 2000230,
@@ -4432,7 +4909,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"8c18f3ec-f485-4d49-ba06-0d31e0fbec25",
+              
+                "condition": { 
+                    "is_rite":5000039
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001010":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000231": {
         "id": 2000231,
@@ -4454,7 +4948,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"aa412d53-0dd0-4caf-8efa-3aac7495e00f",
+              
+                "condition": { 
+                    "is_rite":5000040
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001011":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000232": {
         "id": 2000232,
@@ -4476,7 +4987,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"11fdda2c-d1e4-4438-9998-95bb357c83fe",
+              
+                "condition": { 
+                    "is_rite":5000041
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001054":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000233": {
         "id": 2000233,
@@ -4498,7 +5026,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"adda61f0-1308-4e12-9afd-057372d1a06c",
+              
+                "condition": { 
+                    "is_rite":5000042
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001055":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000234": {
         "id": 2000234,
@@ -4520,7 +5065,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"aa67d0a8-7efa-47f4-8c78-712b50bc5f52",
+              
+                "condition": { 
+                    "is_rite":5000043
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001056":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000235": {
         "id": 2000235,
@@ -4544,7 +5106,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"5a54ccb6-7c9a-4c74-bfcb-b50fa4a31add",
+              
+                "condition": { 
+                    "is_rite":5000044
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000993":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000236": {
         "id": 2000236,
@@ -4566,7 +5145,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"404ab9a5-7adb-4f59-a5c8-5cd19897a836",
+              
+                "condition": { 
+                    "is_rite":5000045  
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000967":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000237": {
         "id": 2000237,
@@ -4588,7 +5184,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"20367143-5bb6-4315-94c6-742a293d4702",
+              
+                "condition": { 
+                    "is_rite":5000046 
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000968":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000238": {
         "id": 2000238,
@@ -4610,7 +5223,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"3dafe38c-4dbe-4f61-985a-eac7b631a1db",
+              
+                "condition": { 
+                    "is_rite":5000047 
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000969":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000239": {
         "id": 2000239,
@@ -4632,7 +5262,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"da6ac785-2bbc-4068-b3b5-74ba1b3b6107",
+              
+                "condition": { 
+                    "is_rite":5000048
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001012":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000240": {
         "id": 2000240,
@@ -4655,7 +5302,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"4f6b8232-5ca2-42f5-bcfa-b38483f0b061",
+              
+                "condition": { 
+                    "is_rite":5000049
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001013":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000241": {
         "id": 2000241,
@@ -4677,7 +5341,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"6d4d05fe-f879-40cc-8040-6faec75e0e3f",
+              
+                "condition": { 
+                    "is_rite":5000050
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001014":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000242": {
         "id": 2000242,
@@ -4700,7 +5381,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"3a191b15-4c76-4327-8a62-eb1617dc8f99",
+              
+                "condition": { 
+                    "is_rite":5000051
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000994":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000243": {
         "id": 2000243,
@@ -4723,7 +5421,25 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"bd5ef22a-923f-4d35-bda7-d93a491ffcba",
+              
+                "condition": { 
+                    "is_rite":5000052
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000995":1, //阅读+1
+                }
+            }
+        ]
+        
     },
     "2000244": {
         "id": 2000244,
@@ -4746,7 +5462,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"faa9c11a-7fb3-4b63-bedf-28400fb78464",
+              
+                "condition": { 
+                    "is_rite":5000053
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001015":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000245": {
         "id": 2000245,
@@ -4768,7 +5501,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"c7edf784-1915-4f52-92aa-cbe5a93d5624",
+              
+                "condition": { 
+                    "is_rite":5000054
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001016":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000246": {
         "id": 2000246,
@@ -7794,7 +8544,6 @@
         "rare": 1,
         "resource": "cards/2000473",
         "tag": {
-            "消耗品": 1,
             "纯色材质": 1
         },
         "card_vanishing": 0,
@@ -9268,7 +10017,7 @@
         "type": "char",
         "tips": "",
         "rare": 2,
-        "resource": "cards/2000432",
+        "resource": ["cards/2000432","cards/2001324"],
         "tag": {
             "妖精": 1,
             "隐匿": 2,
@@ -9343,7 +10092,7 @@
         "type": "char",
         "tips": "",
         "rare": 3,
-        "resource": "cards/2000433",
+        "resource":  ["cards/2000433","cards/2001325"],
         "tag": {
             "妖精": 1,
             "社交": 3,
@@ -9372,7 +10121,7 @@
         "type": "char",
         "tips": "",
         "rare": 4,
-        "resource": "cards/2000434",
+        "resource":  ["cards/2000434","cards/2001326"],
         "tag": {
             "妖精": 1,
             "贵族": 1,
@@ -10243,7 +10992,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"e67babb8-5805-4db0-a2b0-c30726523fb1",
+              
+                "condition": { 
+                    "is_rite":5000744
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001065":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000466": {
         "id": 2000466,
@@ -12012,7 +12778,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"53a85502-a484-4d3e-9d7d-ef157a812bcf",
+              
+                "condition": { 
+                    "is_rite":5000065
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001057":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000539": {
         "id": 2000539,
@@ -12129,7 +12912,7 @@
         "id": 2000544,
         "name": "星灵咒文残卷",
         "title": "书籍",
-        "text": "神秘文字写就得书籍，一本残卷。",
+        "text": "神秘文字写就的书籍，一本残卷。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -12204,7 +12987,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"adde1ae7-0bf7-41b7-a5f3-ace679268329",
+              
+                "condition": { 
+                    "is_rite":5006534
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000986":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000548": {
         "id": 2000548,
@@ -12226,7 +13026,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"f99752e1-7f27-4e39-847e-3869b3c6fe83",
+              
+                "condition": { 
+                    "is_rite":5006523
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000987":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000549": {
         "id": 2000549,
@@ -12247,7 +13064,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"6bc8c68b-7eee-49e4-b0df-2d3c8687fa1d",
+              
+                "condition": { 
+                    "is_rite":5006529
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000989":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000550": {
         "id": 2000550,
@@ -12268,7 +13102,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"88e996ac-ca2e-4f13-9be1-9025e13b7796",
+              
+                "condition": { 
+                    "is_rite":5006530
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000990":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000551": {
         "id": 2000551,
@@ -12289,7 +13140,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"b4cc8049-b703-4f06-b843-6bb45e31b5c2",
+              
+                "condition": { 
+                    "is_rite":5006531
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000991":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000552": {
         "id": 2000552,
@@ -12311,7 +13179,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"633f1d7b-11ce-4595-9472-bcd8fe75968a",
+              
+                "condition": { 
+                    "is_rite":5006533
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000992":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000553": {
         "id": 2000553,
@@ -16946,7 +17831,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"b5511168-e75d-4418-bf79-5a98734f423f",
+              
+                "condition": { 
+                    "is_rite":5006613 
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000970":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000705": {
         "id": 2000705,
@@ -16967,7 +17869,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+         "post_rite":[
+            {
+              
+                "guid":"52647615-2fa0-4462-bf61-f4f8de7eac02",
+              
+                "condition": { 
+                    "is_rite":5006614 
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000971":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000706": {
         "id": 2000706,
@@ -16988,7 +17907,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+         "post_rite":[
+            {
+              
+                "guid":"a052e999-19a8-4c29-9a58-ec242a14df67",
+              
+                "condition": { 
+                    "is_rite":5006615 
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000972":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000707": {
         "id": 2000707,
@@ -17008,7 +17944,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"bc6fdb4a-e0b7-4be6-948a-6acaa13f406b",
+              
+                "condition": { 
+                    "is_rite":5000750
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001000":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000708": {
         "id": 2000708,
@@ -17028,7 +17981,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+          "post_rite":[
+            {
+              
+                "guid":"2a48f2b5-683d-442f-a9a2-70e0855f7208",
+              
+                "condition": { 
+                    "is_rite":5000751
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001001":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000709": {
         "id": 2000709,
@@ -17048,7 +18018,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"6399cbf3-0a97-4093-ad69-659f94617c0d",
+              
+                "condition": { 
+                    "is_rite":5000752
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001002":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000710": {
         "id": 2000710,
@@ -17068,7 +18055,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"dc207f75-9ae5-4549-aac0-daef281785e9",
+              
+                "condition": { 
+                    "is_rite":5000753
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001003":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000711": {
         "id": 2000711,
@@ -18959,7 +19963,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"8d5dfe1e-2c58-4eb1-ae01-8c18015010df",
+              
+                "condition": { 
+                    "is_rite":5000142
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001033":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000798": {
         "id": 2000798,
@@ -18981,7 +20002,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"e2fa8a53-4a23-4821-8118-644490395bb8",
+              
+                "condition": { 
+                    "is_rite":5000143
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001021":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000799": {
         "id": 2000799,
@@ -19003,7 +20041,25 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"82b7cfa7-8cad-4994-9c8e-b9e172369979",
+              
+                "condition": { 
+                    "is_rite":5000144
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001034":1, //阅读+1
+                }
+            }
+        ]
+        
     },
     "2000800": {
         "id": 2000800,
@@ -19025,7 +20081,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"da3fb5b6-e1d8-4261-a7d9-9f109aec451b",
+              
+                "condition": { 
+                    "is_rite":5000145
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000996":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000801": {
         "id": 2000801,
@@ -19047,7 +20120,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"af50aad0-c6e4-4b5d-a2e2-95a89f594c2e",
+              
+                "condition": { 
+                    "is_rite":5000146
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000980":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000802": {
         "id": 2000802,
@@ -19068,7 +20158,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"46d4cdc5-f737-4cf9-8e97-f45d606dfe1e",
+              
+                "condition": { 
+                    "is_rite":5000147 
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000973":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000803": {
         "id": 2000803,
@@ -19089,7 +20196,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"08abba2f-7dfe-408e-94bb-7498a1c8ddb6",
+              
+                "condition": { 
+                    "is_rite":5000148
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000981":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000804": {
         "id": 2000804,
@@ -19111,7 +20235,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"cad6692d-69b6-4845-b613-ef9d39fcee9e",
+              
+                "condition": { 
+                    "is_rite":5000149
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001022":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000805": {
         "id": 2000805,
@@ -19133,7 +20274,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"ad8ca6f1-dd84-47e9-b98e-c100c69a3603",
+              
+                "condition": { 
+                    "is_rite":5000150
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001031":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000806": {
         "id": 2000806,
@@ -19154,7 +20312,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"e0491625-4f32-4252-a56e-b7bfcb3bbd39",
+              
+                "condition": { 
+                    "is_rite":5000151
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001058":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000807": {
         "id": 2000807,
@@ -19175,7 +20350,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"b5e0e6e8-e4f3-4a78-b89e-775da92e0a0d",
+              
+                "condition": { 
+                    "is_rite":5000152
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000997":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000808": {
         "id": 2000808,
@@ -19195,7 +20387,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"95e376df-8170-41e0-b4d4-b9c3bf20e9a8",
+              
+                "condition": { 
+                    "is_rite":5000153
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001036":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000809": {
         "id": 2000809,
@@ -20234,7 +21443,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"40f5863b-4591-4e92-add5-4709ae8505d5",
+              
+                "condition": { 
+                    "is_rite":5000157
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001050":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000856": {
         "id": 2000856,
@@ -20256,7 +21482,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"5cb11276-8e7f-446d-adb6-e2c022fe3761",
+              
+                "condition": { 
+                    "is_rite":5000155
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001017":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000857": {
         "id": 2000857,
@@ -20278,7 +21521,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"956aeb2e-66a3-41b4-a9b8-e98a65d7ee07",
+              
+                "condition": { 
+                    "is_rite":5000156
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001059":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000858": {
         "id": 2000858,
@@ -21627,7 +22887,7 @@
         "rare": 4,
         "resource": "cards/2000827",
         "tag": {
-            "服装": 1,
+            "武器": 1,
             "体魄": 6,
             "战斗": -1,
             "装备": 1
@@ -22093,7 +23353,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+        "post_rite":[
+            {
+              
+                "guid":"bd0b6c61-6f8f-4328-a339-5fa726b296d2",
+              
+                "condition": { 
+                    "is_rite":5008195
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001051":1, //阅读+1
+                }
+            }
+        ]
     },
     "2000946": {
         "id": 2000946,
@@ -23231,7 +24508,25 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+        "post_rite":[
+            {
+              
+                "guid":"c005fd33-fdeb-4fc7-ab79-0f582f449586",
+              
+                "condition": { 
+                    "is_rite":5000832
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001026":1, //阅读+1
+                }
+            }
+        ]
+        
     },
     "2000999": {
         "id": 2000999,
@@ -23251,7 +24546,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+         "post_rite":[
+            {
+              
+                "guid":"69b80ba0-a3da-430d-91f8-9b32990c9c17",
+              
+                "condition": { 
+                    "is_rite":5000833
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001039":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001000": {
         "id": 2001000,
@@ -23272,7 +24584,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+        "post_rite":[
+            {
+              
+                "guid":"805a4c91-da6c-4bfe-8ff0-f8db410fe4d9",
+              
+                "condition": { 
+                    "is_rite":5000834
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001027":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001001": {
         "id": 2001001,
@@ -26405,7 +27734,8 @@
             "战斗": 2,
             "魅力": 2,
             "秘宝": 1,
-            "已装备": 1
+            "已装备": 1,
+            "变革戒":1,
         },
         "card_vanishing": 0,
         "vanish": {},
@@ -26468,7 +27798,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"64de1fcf-171a-4727-89d6-3c89ae7d9a33",
+              
+                "condition": { 
+                    "is_rite":5000204
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001004":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001151": {
         "id": 2001151,
@@ -26815,7 +28162,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"8739802e-7793-4cfb-8e1f-96cf6ac983b6",
+              
+                "condition": { 
+                    "is_rite":5008191
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001005":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001166": {
         "id": 2001166,
@@ -26935,7 +28299,8 @@
             "社交": 2,
             "体魄": 2,
             "秘宝": 1,
-            "已装备": 1
+            "已装备": 1,
+            "群星戒":1,
         },
         "card_vanishing": 0,
         "vanish": {},
@@ -26961,7 +28326,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"ca68e1ad-5ee1-42c9-bb12-8f12cb7fa3ca",
+              
+                "condition": { 
+                    "is_rite":5000164
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001006":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001171": {
         "id": 2001171,
@@ -27393,7 +28775,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"05eaf8f8-595e-4fe5-95e4-caece6e424d7",
+              
+                "condition": { 
+                    "is_rite":5000353
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000998":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001190": {
         "id": 2001190,
@@ -27567,7 +28966,7 @@
         "id": 2001197,
         "name": "诡异的订单包裹",
         "title": "特殊",
-        "text": "水晶们整整齐齐地码放在一起，仔细地打包起来。这是“夜晚的访客”们要求萨米尔制作的仿制生命之水。",
+        "text": "水晶瓶整整齐齐地码放在一起，仔细地打包起来。这是“夜晚的访客”们要求萨米尔制作的仿制生命之水。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -27598,7 +28997,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+         "post_rite":[
+            {
+              
+                "guid":"402b7c22-43d2-44cb-8f87-697f6f0838cb",
+              
+                "condition": { 
+                    "is_rite":5006133
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001018":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001199": {
         "id": 2001199,
@@ -27803,7 +29219,7 @@
         "type": "item",
         "tips": "",
         "rare": 1,
-        "resource": "cards/2001208",
+        "resource": "cards/2000373",
         "tag": {
             "已拥有": 1
         },
@@ -28263,7 +29679,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"563b9b27-9bbc-44f2-8557-7c2386ea4201",
+              
+                "condition": { 
+                    "is_rite":5006711
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001019":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001231": {
         "id": 2001231,
@@ -28340,7 +29773,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"f407ee95-c659-4768-b731-de24019b9560",
+              
+                "condition": { 
+                    "is_rite":5006741
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001020":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001235": {
         "id": 2001235,
@@ -28573,7 +30023,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"7cc47e64-4cee-4f8b-99f6-1132d5587ff2",
+              
+                "condition": { 
+                    "is_rite":5006747
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001060":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001248": {
         "id": 2001248,
@@ -28595,7 +30062,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+         "post_rite":[
+            {
+              
+                "guid":"160386e2-b9d7-48c0-a994-d85100536400",
+              
+                "condition": { 
+                    "is_rite":5006724
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001023":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001249": {
         "id": 2001249,
@@ -28616,7 +30100,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 1
+        "is_only": 1,
+        "post_rite":[
+            {
+              
+                "guid":"602728ed-ded4-46f1-a216-78695e83b098",
+              
+                "condition": { 
+                    "is_rite":5006726
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001061":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001250": {
         "id": 2001250,
@@ -28659,13 +30160,30 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+          "post_rite":[
+            {
+              
+                "guid":"423043bd-3d2d-4f59-9575-431b1be29214",
+              
+                "condition": { 
+                    "is_rite":5006730
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7000982":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001252": {
         "id": 2001252,
         "name": "迷宫之心",
         "title": "书籍",
-        "text": "这本书详述了历史上所有知名的迷宫，还附有大量复杂的手绘图，甚至有迷宫走法教学……想来这位作者是个彻头彻尾的迷宫迷。阅读本书后，你可以获得生存+1，魔力+1.",
+        "text": "这本书详述了历史上所有知名的迷宫，还附有大量复杂的手绘图，甚至有迷宫走法教学……想来这位作者是个彻头彻尾的迷宫迷。阅读本书后，你可以获得生存+1，魔力+1。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -28681,7 +30199,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+        "post_rite":[
+            {
+              
+                "guid":"15a86296-c682-4322-b0b3-5d86483177dd",
+              
+                "condition": { 
+                    "is_rite":5006731
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001007":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001253": {
         "id": 2001253,
@@ -28703,7 +30238,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+         "post_rite":[
+            {
+              
+                "guid":"542debfb-493e-44ba-ba90-ec3c435e550d",
+              
+                "condition": { 
+                    "is_rite":5006732
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001035":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001254": {
         "id": 2001254,
@@ -28725,7 +30277,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+        "post_rite":[
+            {
+              
+                "guid":"f0568f1f-11c5-41d0-90eb-6c95e72c5180",
+              
+                "condition": { 
+                    "is_rite":5006733
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001037":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001255": {
         "id": 2001255,
@@ -28747,7 +30316,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+        "post_rite":[
+            {
+              
+                "guid":"585a8e38-b4af-425b-9d06-27dcd94b7f78",
+              
+                "condition": { 
+                    "is_rite":5006734
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001032":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001256": {
         "id": 2001256,
@@ -28769,7 +30355,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+        "post_rite":[
+            {
+              
+                "guid":"42707c60-830f-4435-aa3b-a973f6ed4b67",
+              
+                "condition": { 
+                    "is_rite":5006735
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001052":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001257": {
         "id": 2001257,
@@ -28790,7 +30393,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+         "post_rite":[
+            {
+              
+                "guid":"df054257-9ea6-475c-9454-beb1b023afd8",
+              
+                "condition": { 
+                    "is_rite":5006736
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001024":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001258": {
         "id": 2001258,
@@ -28812,7 +30432,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+         "post_rite":[
+            {
+              
+                "guid":"e5c780a3-6abb-416d-8d9a-4b72e37e8be1",
+              
+                "condition": { 
+                    "is_rite":5006737
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001062":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001259": {
         "id": 2001259,
@@ -28834,7 +30471,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+         "post_rite":[
+            {
+              
+                "guid":"6c66610a-472c-4862-9996-03bd0812eaf7",
+              
+                "condition": { 
+                    "is_rite":5006738
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001063":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001260": {
         "id": 2001260,
@@ -28856,7 +30510,24 @@
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
-        "is_only": 0
+        "is_only": 0,
+         "post_rite":[
+            {
+              
+                "guid":"fe1a42d5-2748-435a-a696-76443b09b90d",
+              
+                "condition": { 
+                    "is_rite":5006739
+                },
+                "result_text": "",
+                "result": 
+                {
+                },
+                "action": {
+                    "counter+7001064":1, //阅读+1
+                }
+            }
+        ]
     },
     "2001261": {
         "id": 2001261,
@@ -29555,7 +31226,7 @@
     "2001293": {
         "id": 2001293,
         "name": "关于你自己的信仰",
-        "title": "理念",
+        "title": "未启用",
         "text": "关于你自己的信仰。",
         "pops": [],
         "card_favour": "",
@@ -29655,15 +31326,15 @@
     },
     "2001298": {
         "id": 2001298,
-        "name": "马尔基娜的委托",
+        "name": "妆容的研究",
         "title": "特殊",
-        "text": "你许诺会帮助马尔基娜深造装扮的记忆。善恶侠权，如果有想法，就俺寻思一下吧。",
+        "text": "通过俺寻思，你可以为马尔基娜引荐一些合适的人，使她得见更多深刻的面容。不过，这需要你善名或恶名远播，在朝堂或黑街具备一定的影响力。",
         "pops": [],
         "card_favour": "",
         "type": "item",
         "tips": "",
         "rare": 3,
-        "resource": "cards/2001298",
+        "resource": "cards/2000373",
         "tag": {
             "已拥有": 1
         },
@@ -29676,7 +31347,7 @@
         "id": 2001299,
         "name": "陶土钥匙",
         "title": "特殊",
-        "text": "开启新世界的大门",
+        "text": "它烙印在你的灵魂之中，是某种应许的权限，而非一个实体。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -29695,13 +31366,13 @@
         "id": 2001300,
         "name": "完美的龙眼",
         "title": "特殊",
-        "text": "这是一颗完美的龙眼",
+        "text": "只要看一眼，它就会吸走凡人的灵魂——也许更伟大的存在也不能幸免。",
         "pops": [],
         "card_favour": "",
         "type": "item",
         "tips": "",
         "rare": 4,
-        "resource": "cards/2000668",
+        "resource": "cards/2001300",
         "tag": {
             "已拥有": 1
         },
@@ -29754,7 +31425,7 @@
         "id": 2001303,
         "name": "鹿头装饰",
         "title": "特殊",
-        "text": "可以被做成标本的完美鹿头，可放入治理家业中",
+        "text": "可以被做成标本的完美鹿头，可放入治理家业中。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -29773,7 +31444,7 @@
         "id": 2001304,
         "name": "完美的虎皮",
         "title": "特殊",
-        "text": "这么完美的虎皮唯有苏丹有资格拥有",
+        "text": "这么完美的虎皮唯有苏丹有资格拥有。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -29792,7 +31463,7 @@
         "id": 2001305,
         "name": "硕大兽骨",
         "title": "特殊",
-        "text": "只从这个骨头的大小，就可以想象这个野兽生前庞大的体型",
+        "text": "只从这个骨头的大小，就可以想象这个野兽生前庞大的体型。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -29918,8 +31589,8 @@
     "2001311": {
         "id": 2001311,
         "name": "蛇王的伪装",
-        "title": "服装",
-        "text": "这斑斓的色彩仿佛能让穿着者完美的融入到环境中",
+        "title": "未启用",
+        "text": "这斑斓的色彩仿佛能让穿着者完美的融入到环境中。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -29972,7 +31643,7 @@
         "rare": 3,
         "resource": "cards/2001313",
         "tag": {
-            "体魄": 2,
+            "体魄": 3,
             "大餐": 1,
             "已拥有": 1
         },
@@ -30056,7 +31727,7 @@
         "id": 2001317,
         "name": "小安的任务计时",
         "title": "倒计时",
-        "text": "你还有一段时间来进行一次纵欲以完成小安的要求",
+        "text": "你还有一段时间来进行一次纵欲以完成小安的要求。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -30091,7 +31762,7 @@
     },
     "2001318": {
         "id": 2001318,
-        "name": "玩家的纪元",
+        "name": "轮回纪元",
         "title": "思潮",
         "text": "你已经成神，你注定要引领世界进入新时代。",
         "pops": [],
@@ -30188,7 +31859,7 @@
         "type": "item",
         "tips": "",
         "rare": 4,
-        "resource": "cards/2001323",
+        "resource": "cards/2000376",
         "tag": {
             "部队": 1,
             "战斗": 4,
@@ -30208,7 +31879,7 @@
         "text": "它将无数次转世到你家，成为苦力，或者储备粮。",
         "pops": [],
         "card_favour": "",
-        "type": "char",
+        "type": "item",
         "tips": "",
         "rare": 2,
         "resource": "cards/2001324",
@@ -30232,7 +31903,7 @@
         "text": "它将无数次转世到你家，成为苦力，或者储备粮。",
         "pops": [],
         "card_favour": "",
-        "type": "char",
+        "type": "item",
         "tips": "",
         "rare": 3,
         "resource": "cards/2001325",
@@ -30258,7 +31929,7 @@
         "text": "它将无数次转世到你家，成为苦力，或者储备粮。",
         "pops": [],
         "card_favour": "",
-        "type": "char",
+        "type": "item",
         "tips": "",
         "rare": 4,
         "resource": "cards/2001326",
@@ -30368,7 +32039,7 @@
         "id": 2001331,
         "name": "疲劳",
         "title": "倒计时",
-        "text": "疲劳的时候，女王无法赐予祝福",
+        "text": "疲劳的时候，女王无法赐予祝福。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -30592,7 +32263,7 @@
         "id": 2001342,
         "name": "八宝犀牛",
         "title": "大餐",
-        "text": "在被阿尔图大人驯服的犀牛中填充了鸡，羊，牛，驼峰，松子，椰枣，乳酪之后烤制一天一夜制成的超豪华料理。",
+        "text": "在被你驯服的犀牛中填充了鸡、羊、牛、驼峰、松子、椰枣、乳酪之后烤制一天一夜制成的超豪华料理。",
         "pops": [],
         "card_favour": "",
         "type": "item",
@@ -30605,6 +32276,138 @@
             "体魄": 2,
             "魅力": 1,
             "生存": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
+    "2001343": {
+        "id": 2001343,
+        "name": "羊肉炉",
+        "title": "神的面容",
+        "text": "那些曾经参与创造世界的伟大存在或多或少都受到了一些凡间事物的影响。最开始，祂们只是抽象的概念，后来，祂们便学会了用具体的形象来包装自己。",
+        "pops": [],
+        "card_favour": "",
+        "type": "char",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/yrl",
+        "tag": {
+            "羊肉炉": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 1
+    },
+    "2001344": {
+        "id": 2001344,
+        "name": "最后的时间",
+        "title": "倒计时",
+        "text": "这些步骤羊肉炉不知道反复谋划了多久——祂一步都不会犯错，而你需要依赖自己的直觉。",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2000170",
+        "tag": {
+            "羊肉炉飞升进度": 1,
+            "可堆叠":1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
+    "2001345": {
+        "id": 2001345,
+        "name": "撤销存在",
+        "title": "致命的问题",
+        "text": "这是谎言还是法术？啊，你知道吗，在开天辟地之处，这两者本无太大差异。",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2001345",
+        "tag": {},
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
+    "2001346": {
+        "id": 2001346,
+        "name": "飞升之梯",
+        "title": "升华之力",
+        "text": "此物由两种主要材料铸就：高尚之精神，以及对你的无条件信赖。",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2001346",
+        "tag": {
+            "飞升的阶梯": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
+    "2001347": {
+        "id": 2001347,
+        "name": "虚空护盾",
+        "title": "升华之力",
+        "text": "足以在一生之中反反复复击退虚无的生命力。",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2001347",
+        "tag": {
+            "虚空护盾": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
+    "2001348": {
+        "id": 2001348,
+        "name": "造物的工具",
+        "title": "升华之力",
+        "text": "这个世界以文字写就，所以造化之力会以神圣的词汇与撰写故事的隐喻的形式显现自身。",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2001348",
+        "tag": {
+            "造物的工具": 1
+        },
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 0
+    },
+    "2001349": {
+        "id": 2001349,
+        "name": "第一推动力",
+        "title": "升华之力",
+        "text": "哲学家们为此争论了数千年，并且永远都不会有答案——因为他们未能见证此刻。",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2001349",
+        "tag": {
+            "第一推动力": 1
         },
         "card_vanishing": 0,
         "vanish": {},
