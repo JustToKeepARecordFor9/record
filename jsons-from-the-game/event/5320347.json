@@ -19,6 +19,7 @@
             "tips_text":"",
             "action":{  
                 "card":2001248,
+                "counter+7001093":1, //标记完成偷书线
                 "rite":5006722, //归木于林
                 "prompt":{
                     "id":"5320347_prompt_01",

@@ -33,11 +33,11 @@
         "open_conditions": [
         ],
         "random_text":{
-            "r1":"与他的喉舌争锋相对……"
+            "r1":"与他的喉舌针锋相对……"
         },
         "random_text_up":{
             "r1":{
-                "text":"与他的喉舌争锋相对……",
+                "text":"与他的喉舌针锋相对……",
                 "type":"fight_result",
                 "type_tips":"你的骰子数受对方的社交和魅力的影响。",
                 "low_target": 1,
