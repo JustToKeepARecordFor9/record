@@ -17780,5 +17780,13 @@
         "sort": 1066,
         "resources": [],
         "plots": []
+    },
+     "2000920": {
+        "id": 2000920,
+        "is_show": 0,
+        "show_type": "weapon_equip",
+        "sort": 1067,
+        "resources": [],
+        "plots": []
     }
 }

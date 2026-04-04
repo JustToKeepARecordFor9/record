@@ -2765,7 +2765,7 @@
         "text": "讲述了一位公主在舞会中，面对各种质疑和挑战都应对自如的故事。",
         "favour_text": "还是扛狼牙棒比较容易",
         "upgrade_point": 1,
-        "pre": 3300147,
+        "pre": 0,
         "target": [
             {
                 "text": "拉伊德在【长袖善舞】中胜利三次",
@@ -2830,6 +2830,297 @@
             }
         ],
         "icon":"cards/2000019"
+    },
+     "3300152": {
+        "id": 3300152,
+        "name": "前行之舞",
+        "text": "讲述了一名舞姬在旅行的过程中，不忘记给自己努力求生的哥哥寄来种种远方风物的故事。",
+        "favour_text": "“我现在很健康、很快乐，我与许多舞姬一起在太阳下跳舞，一直到晚上都无法入睡，因为我感觉自己实在是过于幸福。”",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "欣赏一场【太阳之舞】",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200258>=":1
+                }
+            }
+        ],
+        "icon":"cards/2000129"
+    },
+     "3300153": {
+        "id": 3300153,
+        "name": "夙愿难偿",
+        "text": "讲述了一名舞姬在苏丹的后宫中一步步向上爬，拼尽全力夺取君王恩宠的故事。",
+        "favour_text": "然而，无人知晓她想要的究竟是什么。",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "阿图娜尔在【拥挤的王座】中大获全胜",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200259>=":1
+                }
+            }
+        ],
+        "icon":"cards/2000129"
+    },
+     "3300154": {
+        "id": 3300154,
+        "name": "开悟的奖赏",
+        "text": "讲述了一位圣者在开悟时，获得造物主的礼物的故事。",
+        "favour_text": "最伟大的创造乃是启迪其他创造的创造。",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "获得陶土钥匙",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200301>=":1
+                }
+            }
+        ],
+        "icon":"cards/2001299"
+    },
+     "3300155": {
+        "id": 3300155,
+        "name": "萤火之光",
+        "text": "讲述了一位圣者用人类的心智去穷极宇宙本源的探索。",
+        "favour_text": "你已经尽力了，哪怕并不完美。",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "不使用任何神力介入，完成最后的打磨",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200302>=":1
+                }
+            }
+        ],
+        "icon":"cards/2001300"
+    },
+     "3300156": {
+        "id": 3300156,
+        "name": "神的仆人",
+        "text": "讲述了一名圣者屈服于神祇的伟力，不得不放弃创世之权柄的故事。",
+        "favour_text": "每一位统治者都需要自己的臣子，即使是造物主也不例外。",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "成为新的造物主的仆人",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200303>=":1
+                }
+            }
+        ],
+        "icon":"cards/2000001"
+    },
+     "3300157": {
+        "id": 3300157,
+        "name": "理解一切",
+        "text": "讲述了一位智者不但协助编纂了人间的百科全书，还用计将邪恶的神祇封印在其中的故事。",
+        "favour_text": "囚禁祂的并非知识，而是欲望。",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "完成【宇宙图书馆】结局",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200304>=":1
+                }
+            }
+        ],
+        "icon":"cards/2000285"
+    },
+     "3300158": {
+        "id": 3300158,
+        "name": "成为纯净之神",
+        "text": "讲述了一名圣者弑杀了疯狂的神祇，篡夺其权柄，登临其御座的故事。",
+        "favour_text": "“赞美光明与火焰的主宰，赞美至纯至净至圣的纯净之神！”",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "成为纯净之神",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200305>=":1
+                }
+            }
+        ],
+        "icon":"cards/2000847" 
+    },
+     "3300159": {
+        "id": 3300159,
+        "name": "成为梦境之主",
+        "text": "讲述了一名圣者弑杀了腐化的神祇，篡夺其权柄，登临其御座的故事。",
+        "favour_text": "在梦中，祂聆听与编织众生的故事。在梦中。",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "成为梦境之主",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200306>=":1
+                }
+            }
+        ],
+        "icon":"cards/2000843"
+    },
+     "3300160": {
+        "id": 3300160,
+        "name": "英灵国度",
+        "text": "讲述了一名圣者拒绝了旧神的衣钵，掌握了崭新权柄的故事。",
+        "favour_text": "“如果我们都拥有无穷的机会，无尽的时间……”",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "建立英灵的国度",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200307>=":1
+                }
+            }
+        ],
+        "icon":"cards/2000001"
+    },
+     "3300161": {
+        "id": 3300161,
+        "name": "最后时刻",
+        "text": "讲述了一位升华的圣者看尽了对手所有的手段之后终结这场游戏的伟大成就。",
+        "favour_text": "吃屁吧！蠢羊！",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "在■■之■，坚持到最后一回合，抢先进入■■■■。",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200308>=":1
+                }
+            }
+        ],
+        "icon":"cards/2000170"
+    },
+     "3300162": {
+        "id": 3300162,
+        "name": "神秘国度",
+        "text": "讲述了一名圣者利用特殊的权柄或信念建立起一个超凡的凡间国度的故事。",
+        "favour_text": "“骗人的吧……”",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "完成【梦幻宫殿】或完成【尽在书中】",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200309>=":1
+                }
+            }
+        ],
+        "icon":"cards/2000001"
+    },
+     "3300163": {
+        "id": 3300163,
+        "name": "妖精女王",
+        "text": "讲述了妖精女王如何落入邪恶的人类手中的故事。",
+        "favour_text": "她美得无法形容。",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "抓住妖精女王",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200310>=":1
+                }
+            }
+        ],
+        "icon":"cards/2001327"
+    },
+     "3300164": {
+        "id": 3300164,
+        "name": "古利斯在首都",
+        "text": "讲述了一个游牧民奴隶在陌生的城市生活的故事。",
+        "favour_text": "首先，别让他跑了。",
+        "upgrade_point": 1,
+        "pre": 0,
+        "target": [
+            {
+                "text": "快脚带他出门",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200311>=":1
+                }
+            },
+            {
+                "text": "小圆带他出门",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200312>=":1
+                }
+            },
+            {
+                "text": "铁头带他出门",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200313>=":1
+                }
+            },
+            {
+                "text": "索拉薇儿带他出门",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200314>=":1
+                }
+            },
+            {
+                "text": "快脚的老婆带他出门",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200315>=":1
+                }
+            },
+            {
+                "text": "哈比卜带他出门",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200316>=":1
+                }
+            },
+            {
+                "text": "阿里木带他出门",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200317>=":1
+                }
+            },
+            {
+                "text": "法拉杰带他出门",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200318>=":1
+                }
+            },
+            {
+                "text": "夏玛带他出门",
+                "show_counter": "",
+                "condition": {
+                    "global_counter.7200319>=":1
+                }
+            },
+        ],
+
+        "icon":"cards/2000114"
     },
     
     
